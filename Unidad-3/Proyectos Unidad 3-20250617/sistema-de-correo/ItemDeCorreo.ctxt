@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=ItemDeCorreo
+comment0.text=\n\ Una\ clase\ para\ modelar\ un\ simple\ item\ de\ mail.\ El\ mail\ tiene\ las\ direcciones\n\ del\ remitente\ y\ del\ destinatario\ y\ un\ mensaje\ en\ una\ cadena\ de\ caracteres.\ \n\ @author\ David\ J.\ Barnes\ and\ Michael\ Kolling\n\ @version\ 2006.03.30\n
+comment1.params=de\ para\ mensaje
+comment1.target=ItemDeCorreo(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\n\ Crea\ un\ item\ de\ mail\ desde\ el\ servidor\ para\ el\ destinatario\ \n\ dado,\ conteniendo\ el\ mensaje\ dado.\n\ @param\ de\ El\ remitente\ de\ este\ item.\n\ @param\ para\ El\ destinatario\ de\ este\ item.\n\ @param\ mensaje\ El\ texto\ del\ mensaje\ a\ ser\ enviado.\n
+comment2.params=
+comment2.target=java.lang.String\ getDe()
+comment2.text=\n\ @return\ EL\ remitente\ de\ este\ mensaje.\n
+comment3.params=
+comment3.target=java.lang.String\ getPara()
+comment3.text=\n\ @return\ El\ destinatario\ de\ este\ mensaje.\n
+comment4.params=
+comment4.target=java.lang.String\ getMensaje()
+comment4.text=\n\ @return\ El\ texto\ del\ mensaje.\n
+comment5.params=
+comment5.target=void\ print()
+comment5.text=\n\ Imprime\ este\ mensaje\ de\ mail\ en\ la\ terminal\ de\ texto.\n
+numComments=6

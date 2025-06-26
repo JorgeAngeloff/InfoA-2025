@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ClienteDeCorreo
+comment0.text=\n\ Una\ clase\ para\ modelar\ una\ clase\ de\ email\ simple.\ El\ cliente\n\ ea\ y\ recupera\n\ mail\ por\ medio\ de\ un\ servidor\ particular.\n\ @author\ David\ J.\ Barnes\ and\ Michael\ Kolling\n\ @version\ 2006.03.30\n
+comment1.params=servidor\ usuario
+comment1.target=ClienteDeCorreo(ServidorDeCorreo,\ java.lang.String)
+comment1.text=\n\ Create\ a\ mail\ client\ run\ by\ usuario\ and\ attached\ to\ the\ given\ servidor.\n
+comment2.params=
+comment2.target=ItemDeCorreo\ getSiguienteItemDeCorreo()
+comment2.text=\n\ Retorna\ el\ siguiente\ item\ de\ mail\ (si\ hay\ alguno)\ para\ este\ usuario.\n
+comment3.params=
+comment3.target=void\ imprimirSiguienteItemDeCorreo()
+comment3.text=\n\ Imprime\ en\ la\ terminal\ de\ texto\ el\ siguiene\ item\ de\ mail\ (si\ hay\ alguno)\n\ para\ este\ usuario.\n
+comment4.params=para\ mensaje
+comment4.target=void\ enviarItemDeCorreo(java.lang.String,\ java.lang.String)
+comment4.text=\n\ Env\uFFFDa\ el\ mensaje\ al\ destinatario\ por\ medio\ del\n\ servidor\ adjunto.\n\ @param\ para\ El\ destinatario.\n\ @param\ mensaje\ El\ texto\ del\ mensaje\ a\ ser\ enviado.\n
+numComments=5

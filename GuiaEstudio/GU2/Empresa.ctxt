@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Empresa
+comment1.params=cuit\ designacion
+comment1.target=Empresa(java.lang.String,\ java.lang.String)
+comment2.params=cuit
+comment2.target=boolean\ setCuit(java.lang.String)
+comment2.text=\n\ Verifica\ el\ d\u00EDgito\ verificador\ del\ CUIT.\n\ Si\ es\ v\u00E1lido,\ lo\ asigna\ y\ devuelve\ true.\n\ Si\ no,\ lo\ borra\ y\ devuelve\ false.\n
+comment3.params=cuit
+comment3.target=boolean\ esCuitValido(java.lang.String)
+comment3.text=\n\ M\u00E9todo\ privado\ para\ validar\ un\ CUIT\ con\ el\ algoritmo\ M\u00F3dulo\ 11.\n
+comment4.params=
+comment4.target=java.lang.String\ getCuit()
+comment4.text=\n\ Retorna\ el\ valor\ del\ CUIT\ (puede\ ser\ ""\ si\ no\ fue\ v\u00E1lido).\n
+comment5.params=designacion
+comment5.target=void\ setDesignacion(java.lang.String)
+comment5.text=\n\ Asigna\ la\ designaci\u00F3n.\n
+comment6.params=
+comment6.target=java.lang.String\ getDesignacion()
+comment6.text=\n\ Retorna\ la\ designaci\u00F3n.\n
+numComments=7
