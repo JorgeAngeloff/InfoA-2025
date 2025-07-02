@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Semana
+comment0.text=\n\ Representa\ una\ semana\ de\ das\ laborables\n\ \n\ @author\ David\ J.\ Barnes\ and\ Michael\ Kolling\n\ @version\ 2006.03.30\n
+comment1.params=semanaNumero
+comment1.target=Semana(int)
+comment1.text=\n\ Constructor\ de\ objetos\ de\ la\ clase\ Semana.\n\ @param\ semanaNumero\ El\ numero\ de\ la\ semana\ (0-52).\n
+comment2.params=
+comment2.target=void\ mostrarCitas()
+comment2.text=\n\ Imprime\ una\ lista\ de\ citas\ para\ esta\ semana\n
+comment3.params=diaEnSemana
+comment3.target=Dia\ getDia(int)
+comment3.text=\n\ @param\ diaEnSemana\ qu\uFFFD\ d\uFFFDa\ (1..DIAS_AGENDABLES_POR_SEMANA).\n\ @return\ El\ Dia\ representando\ el\ n\uFFFDmer\ do\ d\uFFFDa,\ o\ null\ si\ diaEnSemana\n\ \ \ \ \ \ \ \ \ est\uFFFD\ fuera\ de\ rango\n
+comment4.params=
+comment4.target=int\ getSemanaNumero()
+comment4.text=\n\ @return\ El\ numero\ de\ semana\ (0-52).\n
+numComments=5

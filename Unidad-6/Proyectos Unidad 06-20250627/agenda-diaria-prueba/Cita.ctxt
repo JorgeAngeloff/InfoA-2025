@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Cita
+comment0.text=\n\ Graba\ detalles\ de\ una\ cita\ diaria.\n\ \n\ @author\ David\ J.\ Barnes\ and\ Michael\ Kolling\n\ @version\ 2006.03.30\n
+comment1.params=descripcion\ duracion
+comment1.target=Cita(java.lang.String,\ int)
+comment1.text=\n\ Crea\ una\ cita\ con\ una\ duracion\ determinada.\n\ @param\ descripcion\ El\ motivo\ de\ la\ cita.\n\ @param\ duracion\ La\ duracin\ de\ la\ cita\ en\ horas\n
+comment2.params=
+comment2.target=java.lang.String\ getDescripcion()
+comment2.text=\n\ @return\ El\ motivo\ de\ la\ cita.\n
+comment3.params=
+comment3.target=int\ getDuracion()
+comment3.text=\n\ @return\ La\ duraci\uFFFDn\ de\ la\ cita\ (en\ horas)\n
+numComments=4

@@ -22,7 +22,7 @@ public class Canvas
     /**
      * Crea un Canvas con alto, ancho y color de fondo por defecto
      * (300, 300, blanco).
-     * @param titulo  ttitulo que aparecerá en el marco del Canvas     
+     * @param titulo  ttitulo que apareceren el marco del Canvas     
      */
     public Canvas(String titulo)
     {
@@ -30,7 +30,7 @@ public class Canvas
     }
     /**
      * Crea un Canvas con  color de fondo por defecto(blanco).
-     * @param titulo  titulo que aparecerá en el marco del Canvas
+     * @param titulo  titulo que aparecer en el marco del Canvas
      * @param ancho  ancho del Canvas
      * @param alto alto del Canvas
      */
@@ -41,7 +41,7 @@ public class Canvas
 
     /**
      * Crea un Canvas.
-     * @param titulo  titulo que aparecerá en el marco del Canvas
+     * @param titulo  titulo que aparecer en el marco del Canvas
      * @param ancho  ancho del Canvas
      * @param alto alto del Canvas
      * @param fdColor  color de fondo del Canvas
@@ -117,7 +117,7 @@ public class Canvas
     }
 
     /**
-     * Rellena un rectángulo con el color de lapiz del canvas
+     * Rellena un rectï¿½ngulo con el color de lapiz del canvas
      */
     public void rellenarRectangulo(int xPos, int yPos, int ancho, int alto)
     {
@@ -139,7 +139,7 @@ public class Canvas
 
     /**
      * Borra un circulo con las dimensiones especificadas del canvas.
-     * Podría utilizarse también el método borrar para esta tarea.
+     * Podrï¿½a utilizarse tambiï¿½n el mï¿½todo borrar para esta tarea.
      */
     public void borrarCirculo(int xPos, int yPos, int diametro)
     {
@@ -148,8 +148,8 @@ public class Canvas
     }
 
     /**
-     *  Borra un rectángulo con las dimensiones especificadas del canvas
-     *  Podría utilizarse también el método borrar para esta tarea.
+     *  Borra un rectï¿½ngulo con las dimensiones especificadas del canvas
+     *  Podrï¿½a utilizarse tambiï¿½n el mï¿½todo borrar para esta tarea.
      */
     public void borrarRectangulo(int xPos, int yPos, int ancho, int alto)
     {
@@ -225,7 +225,7 @@ public class Canvas
     }
 
     /**
-     * Dibuja una línea en el Canvas.
+     * Dibuja una lï¿½nea en el Canvas.
      * @param  x1   coordenada x para el inicio de la linea
      * @param  y1   coordenada y para el inicio de la linea 
      * @param  x2   coordenada x para el fin de la linea 
@@ -238,8 +238,8 @@ public class Canvas
     }
 
     /**
-     * Establece el color de lápiz del Canvas.
-     * @param  nuevoColor   el nuevo color de lápiz del Canvas 
+     * Establece el color de lï¿½piz del Canvas.
+     * @param  nuevoColor   el nuevo color de lï¿½piz del Canvas 
      */
     public void setColorDeLapiz(Color nuevoColor)
     {
@@ -247,8 +247,8 @@ public class Canvas
     }
 
     /**
-     * Retorna el color de lápiz del Canvas.
-     * @return  el color de lápiz del canvas
+     * Retorna el color de lï¿½piz del Canvas.
+     * @return  el color de lï¿½piz del canvas
      */
     public Color getColorDeLapiz()
     {
@@ -293,7 +293,7 @@ public class Canvas
     }
 
     /**
-     * Establece el tamaño del canvas
+     * Establece el tamaï¿½o del canvas
      * @param  ancho    nuevo ancho
      * @param  alto   nuevo alto
      */
@@ -308,7 +308,7 @@ public class Canvas
     }
 
     /**
-     * Retorna el tamaño del canvas
+     * Retorna el tamaï¿½o del canvas
      * @return     Las dimensiones del canvas
      */
     public Dimension getTamanio()
@@ -318,7 +318,7 @@ public class Canvas
 
     /**
      * Espera por el tiempo especificado en milisegundos.
-     * Una manera facil para especificar una pequeña demora qeu puede
+     * Una manera facil para especificar una pequeï¿½a demora qeu puede
      * ser utilizada cuando se producen animaciones
      * @param  milisegundos  el numero de milisegundos a esperar 
      */
@@ -337,7 +337,7 @@ public class Canvas
     /************************************************************************
      * Clase interna CanvasPane - El componente real conenido en Canvas
      * Esta es escencialmente un JPanel con capacidad agregada 
-     * para refrescar la imagen dibujada en él.
+     * para refrescar la imagen dibujada en ï¿½l.
      */
     private class CanvasPane extends JPanel
     {

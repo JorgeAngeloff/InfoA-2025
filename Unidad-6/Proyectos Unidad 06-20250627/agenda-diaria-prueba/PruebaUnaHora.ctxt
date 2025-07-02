@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=PruebaUnaHora
+comment0.text=\n\ Lleva\ a\ cabo\ pruebas\ de\ la\ clase\ Dia\ que\ consisten\n\ en\ anotar\ citas\ de\ una\ hora\ de\ duracin\n\ \n\ @author\ David\ J.\ Barnes\ and\ Michael\ Kolling\n\ @version\ 2008.03.30\n
+comment1.params=
+comment1.target=PruebaUnaHora()
+comment1.text=\n\ Constructor\ de\ objetos\ de\ la\ clase\ PruebaUnaHora\n
+comment2.params=
+comment2.target=void\ anotarTresCitas()
+comment2.text=\n\ Prueba\ la\ funcionalidad\ b\uFFFDsica\ tanto\ al\ comienzo,\ al\ final\ como\ en\ \n\ la\ mitad\ del\ d\uFFFDa.\n
+comment3.params=
+comment3.target=void\ probarDobleCita()
+comment3.text=\n\ Verifica\ que\ no\ est\uFFFD\ permitido\ registrar\ dos\ citas\ en\ una\ misma\ hora\n
+comment4.params=
+comment4.target=void\ completarElDia()
+comment4.text=\n\ Prueba\ la\ funcionalidad\ b\uFFFDsica\ completando\ un\ d\uFFFDa\ con\ citas.\n
+numComments=5

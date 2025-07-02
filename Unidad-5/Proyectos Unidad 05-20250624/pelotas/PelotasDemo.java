@@ -2,7 +2,7 @@ import java.awt.*;
 import java.awt.geom.*;
 
 /**
- * Clase PelotasDemo - provee dos pequeñas demostracions sobre el uso de la  
+ * Clase PelotasDemo - provee dos pequeas demostracions sobre el uso de la  
  * clase Canvas. 
  *
  * @author Michael Kolling and David J. Barnes
@@ -73,7 +73,7 @@ public class PelotasDemo
      */
     public void rebotar()
     {
-        int piso = 400;   // posición de la linea del piso
+        int piso = 400;   // posiciï¿½n de la linea del piso
 
         miCanvas.setVisible(true);
 
@@ -89,7 +89,7 @@ public class PelotasDemo
         // las hace rebotar
         boolean terminado =  false;
         while(!terminado) {
-            miCanvas.espera(50);           // pequeña demora
+            miCanvas.espera(50);           // pequeï¿½a demora
             pelota.mover();
             pelota2.mover();
             // para una vez que la pelota ha recorrido una cierta distancia horizontal

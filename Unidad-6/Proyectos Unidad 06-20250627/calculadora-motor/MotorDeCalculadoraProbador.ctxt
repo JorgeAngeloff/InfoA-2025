@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=MotorDeCalculadoraProbador
+comment0.text=\n\ Prueba\ la\ clase\ MotorDeCalculadora\n\ \n\ @author\ Hacker\ T.\ Largebrain\ \n\ @version\ 0.1\n
+comment1.params=
+comment1.target=MotorDeCalculadoraProbador()
+comment1.text=\n\ Constructor\ de\ objetos\ de\ la\ clase\ MotorDeCalculadoraProbador\n
+comment2.params=
+comment2.target=void\ testTodo()
+comment2.text=\n\ Prueba\ todo.\n
+comment3.params=
+comment3.target=int\ testMas()
+comment3.text=\n\ Prueba\ la\ operacin\ adici\uFFFDn\ del\ motor.\n\ @return\ el\ resultado\ del\ c\uFFFDlculo\ 3+4.\n
+comment4.params=
+comment4.target=int\ testMenos()
+comment4.text=\n\ Prueba\ la\ operaci\uFFFDn\ sustracci\uFFFDn\ del\ motor\n\ @return\ \ el\ resultado\ del\ c\uFFFDlculo\ \ 9\ -\ 4.\n
+numComments=5

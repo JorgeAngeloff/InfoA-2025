@@ -1,16 +1,16 @@
 #BlueJ class context
 comment0.target=SistemaDeSoporte
-comment0.text=\n\ rio\ y\ un\ objecto\ de\ clase\ Contestador\ para\ generar\ las\ \n\ respuestas.\ Contiene\ un\ ciclo\ que\ repetidamente\ lee\ las\ entradas\ y\n\ genera\ las\ respuestas\ hasta\ que\ el\ usuario\ decide\ salir.\n\ \n\ @author\ \ \ \ \ Michael\ Kolling\ and\ David\ J.\ Barnes\n\ @version\ \ \ \ 1.0\n
+comment0.text=\n\ La\ clase\ SistemaDeSoporte\ modela\ un\ sistema\ de\ soporte\ t\u00E9cnico\ simple\n\ que\ permite\ al\ usuario\ describir\ un\ problema\ mediante\ palabras\ clave\n\ y\ obtiene\ respuestas\ generadas\ autom\u00E1ticamente.\n\ \n\ Este\ sistema\ utiliza\ un\ objeto\ de\ clase\ {@link\ LectorDeEntrada}\ para\ leer\n\ las\ palabras\ ingresadas\ por\ el\ usuario,\ y\ un\ objeto\ de\ clase\ {@link\ Contestador}\n\ para\ generar\ una\ respuesta\ adecuada.\n\ \n\ El\ ciclo\ de\ atenci\u00F3n\ contin\u00FAa\ hasta\ que\ el\ usuario\ escribe\ "bye".\n\ \n\ @author\ Michael\ Kolling\ and\ David\ J.\ Barnes\n\ @version\ 1.0\n
 comment1.params=
 comment1.target=SistemaDeSoporte()
-comment1.text=\n\ Crea\ un\ sistema\ de\ soporte\ tcnico.\n
+comment1.text=\n\ Crea\ un\ nuevo\ sistema\ de\ soporte\ t\u00E9cnico\ inicializando\n\ el\ lector\ de\ entrada\ y\ el\ generador\ de\ respuestas.\n
 comment2.params=
 comment2.target=void\ iniciar()
-comment2.text=\n\ Inicia\ el\ sistema\ de\ soporte\ t\uFFFDcnico.\ Imprimir\uFFFD\ un\ mensaje\ de\ bienvenida\n\ y\ establece\ un\ di\uFFFDlogo\ con\ el\ usuario\ hasta\ que\ el\ usuario\ lo\ finalice.\n
+comment2.text=\n\ Inicia\ el\ sistema\ de\ soporte\ t\u00E9cnico.\n\ Muestra\ un\ mensaje\ de\ bienvenida,\ lee\ la\ entrada\ del\ usuario,\n\ y\ genera\ respuestas\ hasta\ que\ el\ usuario\ escriba\ "bye".\n
 comment3.params=
 comment3.target=void\ imprimirBienvenida()
-comment3.text=\n\ Imprime\ un\ mensaje\ de\ Bienvenida\ en\ la\ pantalla\n
+comment3.text=\n\ Muestra\ un\ mensaje\ de\ bienvenida\ en\ la\ consola.\n
 comment4.params=
 comment4.target=void\ imprimirDespedida()
-comment4.text=\n\ Imprime\ un\ mensaje\ de\ Despedida\ en\ la\ pantalla\n
+comment4.text=\n\ Muestra\ un\ mensaje\ de\ despedida\ en\ la\ consola.\n
 numComments=5
